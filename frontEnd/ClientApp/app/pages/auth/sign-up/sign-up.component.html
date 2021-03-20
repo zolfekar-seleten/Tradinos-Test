@@ -1,0 +1,98 @@
+<app-menu-nav></app-menu-nav>
+
+
+<div class="col-lg-10">
+    <div class="group">
+       
+
+        <form [formGroup]="registerForm" style="padding-left:20px;" class="form1 kt-form kt-form--group-seperator-dashed">
+            <h2 class="english">Sign Up </h2>
+
+
+
+            <div class="parent" [dir]="classReference.textDir">
+                <div class="kt-form__section kt-form__section--first w-75">
+
+
+
+                    <div class="form-group kt-form__group row">
+
+                         
+                    </div>
+                    <div class="form-group kt-form__group row">
+                        <div class="col-lg-6 kt-margin-bottom-20-mobile">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <input matInput placeholder="User Name" formControlName="name"
+                                        />
+                                <mat-error>
+                                    User Name
+                                 <strong>
+                                    required
+                                </strong>
+                                </mat-error>
+                   
+
+                            </mat-form-field>
+                        </div>
+                        <div class="col-lg-6 kt-margin-bottom-20-mobile">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <input type="email"  matInput placeholder="Email" formControlName="email"
+ />
+                                <mat-error>
+                                    Email
+                                    
+                                    <strong>
+                                        required
+                                        
+                                    </strong>
+                                </mat-error>
+                        
+
+                            </mat-form-field>
+                        </div>
+                        <div class="col-lg-6 kt-margin-bottom-20-mobile">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <input matInput type="password"
+                                       id="password" autocomplete="off" placeholder="Password" formControlName="password" />
+                                <mat-error>
+
+                                    Password is
+                                    <strong>
+                                        required and should be at least 6 characters
+                                    </strong>
+                                </mat-error>
+                      
+                            </mat-form-field>
+                        </div>
+                      
+                    </div>
+
+                  
+
+                </div>
+
+                <mat-spinner [style.display]="showSpinner ? 'block' : 'none'" [diameter]="25"></mat-spinner>
+
+
+            </div>
+            <div class="form-group kt-form__group row" dir="rtl">
+
+                <button class="btn btn-primary kt-margin-r-10" style="
+                       bottom: 24px;  margin-left: 31px; margin-right: 20px; background-color:#2d94c1;" (click)="onSubmit()"
+                        mat-raised-button matTooltip="Register ">
+                    
+                    Register
+                    
+                </button>
+            </div>
+        </form>
+
+    
+
+    </div>
+</div>
+
+
+
+
+

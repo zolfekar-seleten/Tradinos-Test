@@ -1,0 +1,74 @@
+<app-menu-nav></app-menu-nav>
+
+
+<div class="col-lg-10">
+    <div class="group">
+      
+
+
+
+
+
+        <form [formGroup]="loginForm" style="padding-left:20px;" class="form1 kt-form kt-form--group-seperator-dashed">
+            <h2 class="english" >Login </h2>
+
+            <div class="parent" [dir]="classReference.textDir">
+                <div class="kt-form__section kt-form__section--first w-75">
+
+
+
+                    <div class="form-group kt-form__group row">
+                        <mat-form-field class="example-full-width">
+                            <input type="email" matInput placeholder="Email" formControlName="email">
+                            <mat-error>
+                                Email
+                                <strong>
+                                    required
+                                </strong>
+                            </mat-error>
+                            <mat-hint align="start">
+                                Please enter
+                                <strong>Email  </strong>
+                                here
+                                
+                            </mat-hint>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group kt-form__group row">
+                        <mat-form-field class="example-full-width">
+                            <input matInput placeholder="password" type="password" formControlName="password">
+
+                            <mat-error>
+                                password
+                                <strong>
+                                    required
+                                </strong>
+                            </mat-error>
+                            <mat-hint align="start">
+                                Please enter
+                                <strong>password</strong>
+                                here
+                            </mat-hint>
+                        </mat-form-field>
+                    </div>
+
+                </div>
+                <mat-spinner [style.display]="showSpinner ? 'block' : 'none'" [diameter]="25"></mat-spinner>
+
+            </div>
+            <div class="form-group kt-form__group row" dir="rtl" >
+                <button mat-raised-button (click)="login()"
+                        style="bottom: 24px;  margin-left: 31px; margin-right: 20px;
+                       color:white; background-color:#2d94c1;">
+
+                    Login
+
+
+                </button>
+               
+            </div>
+        </form>
+
+    </div>
+</div>
+

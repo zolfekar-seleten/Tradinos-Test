@@ -1,0 +1,107 @@
+<button mat-button [mat-menu-trigger-for]="menu" class="myClass">
+    <!--  <button mat-button [mat-menu-trigger-for]="menu" fxHide="false" fxHide.gt-sm class="myClass">-->
+    <svg style="float:right; margin-top: 16px;
+    margin-right: -6px;"
+         class="hum"
+         width="38"
+         height="23"
+         viewBox="0 0 43 23"
+         fill="none"
+         xmlns="http://www.w3.org/2000/svg">
+        <line y1="1.5" x2="43" y2="1.5" stroke=" #2D94C1" stroke-width="3" />
+        <line y1="11.5" x2="28" y2="11.5" stroke=" #2D94C1" stroke-width="3" />
+        <line y1="21.5" x2="16" y2="21.5" stroke=" #2D94C1" stroke-width="3" />
+
+    </svg>
+</button>
+
+
+<div class="row menu">
+    <a style="color: white;" [routerLink]="['/home']" class="logo">
+        <img style="     width: 75%;
+                         height: 75%; "
+             onclick="this.blur()"
+             matTooltip="Home page"
+             src="../../../assets/tradinos_logo.svg" />
+    </a>
+
+    <mat-menu x-position="before" #menu="matMenu">
+        <div class="nav-open" style="background: white;">
+
+            <ul class="nav2" style="list-style: none;">
+
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       [routerLink]="['/home']"
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+                        Home
+
+                    </a>
+                </li>
+
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       *ngIf="isLogged()"
+                       [routerLink]="['/tasks']"
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+                        Tasks
+
+
+                    </a>
+                </li>
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       *ngIf="!isLogged()"
+                       [routerLink]="['/login']"
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+                        Login
+
+
+                    </a>
+                </li>
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       *ngIf="isLogged()"
+                       color="primary"
+                       (click)="logOut()"
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+
+                        Logout
+
+                    </a>
+                </li>
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       onclick="this.blur()"
+                       *ngIf="!isLogged()"
+                       [routerLink]="['/sign-up']"
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+
+                        Sign Up
+
+                    </a>
+
+                </li>
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       onclick="this.blur()"
+                       color="primary"
+                       [routerLink]="['/about']"
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+                        About
+
+
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </mat-menu>
+
+</div>

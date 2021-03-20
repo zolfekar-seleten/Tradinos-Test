@@ -1,0 +1,108 @@
+
+ 
+
+    <mat-toolbar style="  z-index:7000;
+       background-color:transparent;">
+        <mat-toolbar-row fxLayout="row" class="nav_row">
+            <!--<mat-toolbar-row fxLayout="row" fxShow="false" fxShow.gt-sm>-->
+
+
+
+            <a class="navbar-brand" style="color: white; padding-left: 4%;   z-index: 1;" [routerLink]="['/home']">
+                <img style=" width: 120px;
+                             height: 60px; "
+                     onclick="this.blur()"
+                     matTooltip="Home page "
+                     src="../assets/tradinos_logo.svg" />
+            </a>
+
+
+
+
+
+            <ul id="nav1">
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       [routerLink]="['/home']"
+                       matTooltip=" Home page"
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       *ngIf="isLogged()"
+                       [routerLink]="['/tasks']"
+                       matTooltip=" Tasks  "
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+                        Tasks
+                    </a>
+                </li>
+
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       *ngIf="isLogged()"
+                       color="primary"
+                       (click)="logOut()"
+                       matTooltip=" Logout  "
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+
+                        Logout
+
+
+                    </a>
+                </li>
+
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       onclick="this.blur()"
+                       color="primary"
+                       [routerLink]="['/about']"
+                       matTooltip="about "
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+
+                        About Us
+
+
+                    </a>
+                </li>
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       onclick="this.blur()"
+                       color="primary"
+                       matTooltip="Services "
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+
+                        Services
+
+
+                    </a>
+                </li>
+                <li class="nav-item"
+                    [routerLinkActive]="['active']">
+                    <a class="nav-link"
+                       onclick="this.blur()"
+                       color="primary"
+                       matTooltip=" Contact Us "
+                       aria-label="Button that displays a tooltip when focused or hovered over">
+
+                        Contact Us
+
+
+                    </a>
+                </li>
+
+            </ul>
+
+        </mat-toolbar-row>
+
+    </mat-toolbar>
+
+    
+

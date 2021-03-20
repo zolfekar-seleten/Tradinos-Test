@@ -1,0 +1,94 @@
+<app-menu-nav></app-menu-nav>
+
+<div class="col-md-12 ">
+    <div class="text-center tasks_container">
+        <div class="row">
+            <div class="col-lg-4">
+
+                <button mat-raised-button style="background-color:#0075c9;
+                            margin-left:10px;margin-right:10px;
+                            color:white" (click)="addNewTask()">
+                    <mat-icon matSuffix>add</mat-icon> Task
+                </button>
+                <!--<button mat-raised-button
+                 style="color:#0075c9;">
+                <mat-icon matSuffix>add</mat-icon>  Category
+                </button>-->
+            </div>
+            <div class="col-lg-4">
+                <h2 class="glow"> Tasks </h2>
+            </div>
+            <div class="col-lg-4">
+                <form class="example-form">
+                    <mat-form-field class="example-full-width">
+                        <input (keyup.enter)="search($event)"
+                               matInput placeholder="Search">
+                        <mat-icon matSuffix style="color:white">search</mat-icon>
+                    </mat-form-field>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    <div *ngIf="loading" class="my-loading row">
+        <mat-spinner [diameter]="50"></mat-spinner>
+    </div>
+    <div class="row" *ngIf="displayedTasks.length == 0"
+         style=" text-align:center">
+         <span class="glow">There isn't any task yet</span> 
+    </div>
+        <div *ngIf="displayedTasks.length > 0">
+            <table *ngIf="!loading" class="table table-striped">
+                <thead>
+                    <tr>
+                        <div class="row" style="padding:30px">
+                            <div class="col col-4">
+
+                                description
+                            </div>
+                            <div class="col col-4">
+                                deadline
+                            </div>
+                            <div class="col col-4">
+
+                            </div>
+
+                        </div>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let task of displayedTasks">
+                        <td (click)="showDetails(user.id)">
+                            <div class="task_card">
+                                <div class="row">
+                                    <div class="col col-4">
+
+                                        {{task.description}}
+                                    </div>
+                                    <div class="col col-4">
+                                        {{task.deadline}}
+                                    </div>
+                                    <div class="col col-4">
+                                        <button mat-fab (click)="showDetails(task.id)"
+                                                style="background-color:#0075c9;
+                            margin-left:10px;margin-right:10px;
+                            color:white">
+                                            <mat-icon matSuffix>remove_red_eye</mat-icon>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+
+
+                    </tr>
+
+                </tbody>
+
+
+
+            </table>
+        </div>
+    </div>

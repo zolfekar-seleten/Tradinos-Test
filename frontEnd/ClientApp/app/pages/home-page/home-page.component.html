@@ -1,0 +1,56 @@
+ 
+<app-menu-nav></app-menu-nav>
+ 
+
+
+
+<div class="home_container">
+    <div class="row inner_container">
+        <div class="col col-lg-6 col-md-10 col-sm-12">
+            <p class="tradinos">Tradinos</p>
+            <p class="paragraph_body">
+                We are Tradinos; Creative Hub,
+                we bring creative people together,
+                as a convenor that focuses on both the practical
+                and artistic process of building an app,
+                finding technical solutions,
+                applying technology in a creative content and proposing viable ideas,
+                boosted by a deep talent pool of technology experts.
+            </p>
+
+            <div class="row">
+                <ul id="nav1">
+                    <li class="login"
+                        [routerLinkActive]="['active']">
+                        <a class="nav-link"
+                           *ngIf="!isLogged()"
+                           [routerLink]="['/login']"
+                           aria-label="Button that displays a tooltip when focused or hovered over">
+                         
+                            Login
+
+
+                        </a>
+                    </li>
+                    <li class="sign_up"
+                        [routerLinkActive]="['active']">
+                        <a class="nav-link"
+                           onclick="this.blur()"
+                           *ngIf="!isLogged()"
+                           [routerLink]="['/sign-up']"
+                           aria-label="Button that displays a tooltip when focused or hovered over">
+                            
+                            Sign Up
+
+
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col col-lg-6 col-md-10 col-sm-12">
+            <img class="ppl_img" src="../../../assets/images/Asset 5.png" height="375" width="375" />
+        </div>
+    </div>
+</div>

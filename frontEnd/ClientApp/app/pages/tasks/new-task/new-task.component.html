@@ -1,0 +1,100 @@
+<app-menu-nav></app-menu-nav>
+
+
+<div class="col-lg-10">
+    <div class="group">
+
+
+        <form [formGroup]="taskForm" style="padding-left:20px;" class="form1 kt-form kt-form--group-seperator-dashed">
+            <h2 class="english">Add new Task </h2>
+
+
+
+            <div class="parent">
+                <div class="kt-form__section kt-form__section--first w-75">
+
+
+
+                    <div class="form-group kt-form__group row">
+
+
+                    </div>
+                    <div class="form-group kt-form__group row">
+                        <div class="col-lg-6 kt-margin-bottom-20-mobile">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <input matInput placeholder="Description" formControlName="description" />
+                                <mat-error>
+                                    Description
+                                    <strong>
+                                        required
+                                    </strong>
+                                </mat-error>
+
+
+                            </mat-form-field>
+                        </div>
+
+                        <mat-form-field class="mat-form-field-fluid">
+                            <mat-select placeholder="Categories">
+                                <mat-option disabled><b>Users</b></mat-option>
+                                <mat-option *ngFor="let category of categories" value="{{ category.id }}" (click)="addCategory(category.id)">
+                                    {{category.name}}
+                                </mat-option>
+
+                            </mat-select>
+                            <mat-error>Select User</mat-error>
+                            <mat-hint align="start">Please select <strong>receivers</strong></mat-hint>
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <input matInput [matDatepicker]="picker" formControlName="deadline" placeholder="Choose a date">
+                            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                            <mat-datepicker #picker></mat-datepicker>
+                        </mat-form-field>
+
+                        <mat-form-field class="example-full-width">
+                            <input (keyup.enter)="addSubTask($event)"
+                                   matInput placeholder="Add another sub Tasks press enter">
+                          <mat-icon matSuffix (click)="addSubTask($event)">add</mat-icon>
+                        </mat-form-field>
+                    </div>
+
+
+
+                </div>
+
+                <mat-spinner [style.display]="showSpinner ? 'block' : 'none'" [diameter]="25"></mat-spinner>
+
+              
+
+                    <span *ngFor="let category of selectedCategories" style="list-style-type: none;">
+                        <button mat-icon-button color="warn" matTooltip="remove " type="button"
+                                (click)="removeCategory(category.id)">
+
+                            <mat-icon>delete</mat-icon>
+                        </button>
+                        {{category.name}}
+                    </span>
+ 
+            </div>
+            <div class="form-group kt-form__group row" dir="rtl">
+
+                <button class="btn btn-primary kt-margin-r-10" style="
+                       bottom: 24px;  margin-left: 31px; margin-right: 20px; background-color:#2d94c1;" (click)="onSubmit()"
+                        mat-raised-button matTooltip="Register ">
+
+                    Save
+
+                </button>
+            </div>
+        </form>
+
+
+
+    </div>
+</div>
+
+
+
+
+

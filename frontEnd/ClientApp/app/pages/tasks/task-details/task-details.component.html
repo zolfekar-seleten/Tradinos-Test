@@ -1,0 +1,46 @@
+
+<app-menu-nav></app-menu-nav>
+
+<div class="container">
+    
+    <div class="task_card">
+        <div class="row">
+            <div class="col-lg-2  ">
+                <button style="background-color:#0075c9;" mat-fab
+                        (click)="backClicked()">
+                    <mat-icon style="font-size: 25px; color:white">
+                        keyboard_backspace
+                    </mat-icon>
+                </button>
+            </div>
+        </div>
+        <span class="headline">Categories : </span>
+        <div class="row item">
+
+            <span class="category_card" style="color:white" [style.background-color]="category.color"
+                  *ngFor="let category of task.categories">
+                {{category.name}}
+            </span>
+        </div>
+        <div class="row item">
+            <mat-icon style="font-size: 15px;color:#2d94c1;">description</mat-icon>
+            <span class="headline">Description : </span>{{task.description}}
+        </div>
+        <div class="row item">
+            <mat-icon style="font-size: 15px;color:#2d94c1;">timer-off</mat-icon>
+            <span class="headline">Deadline :</span> {{task.deadline}}
+        </div>
+        <div class="row item">
+            <mat-icon style="font-size: 15px;color:#2d94c1;">person</mat-icon>
+            <span class="headline">Created at :</span> {{task.created_at}}
+        </div>
+        <span class="headline">Sub Tasks :</span>
+        <div class="row item" *ngFor="let subTask of task.sub_tasks">
+
+            <span class="subtask_card" >
+                {{subTask.description}}
+            </span>
+        </div>
+
+    </div>
+   

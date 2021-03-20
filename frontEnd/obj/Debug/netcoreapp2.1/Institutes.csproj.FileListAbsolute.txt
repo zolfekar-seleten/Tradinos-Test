@@ -1,0 +1,28 @@
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\bin\Debug\netcoreapp2.1\Institutes.deps.json
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\bin\Debug\netcoreapp2.1\Institutes.runtimeconfig.json
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\bin\Debug\netcoreapp2.1\Institutes.runtimeconfig.dev.json
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\bin\Debug\netcoreapp2.1\Institutes.dll
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\bin\Debug\netcoreapp2.1\Institutes.pdb
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\obj\Debug\netcoreapp2.1\Institutes.csprojAssemblyReference.cache
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\obj\Debug\netcoreapp2.1\Institutes.csproj.CoreCompileInputs.cache
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\obj\Debug\netcoreapp2.1\Institutes.RazorAssemblyInfo.cache
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\obj\Debug\netcoreapp2.1\Institutes.RazorAssemblyInfo.cs
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\obj\Debug\netcoreapp2.1\Institutes.AssemblyInfoInputs.cache
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\obj\Debug\netcoreapp2.1\Institutes.AssemblyInfo.cs
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\obj\Debug\netcoreapp2.1\Institutes.RazorTargetAssemblyInfo.cache
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\obj\Debug\netcoreapp2.1\Institutes.dll
+D:\Digital Edge Projects\Institutes\Institutes\Institutes\obj\Debug\netcoreapp2.1\Institutes.pdb
+D:\Tradinos\Tradions task\frontEnd\bin\Debug\netcoreapp2.1\Institutes.deps.json
+D:\Tradinos\Tradions task\frontEnd\bin\Debug\netcoreapp2.1\Institutes.runtimeconfig.json
+D:\Tradinos\Tradions task\frontEnd\bin\Debug\netcoreapp2.1\Institutes.runtimeconfig.dev.json
+D:\Tradinos\Tradions task\frontEnd\bin\Debug\netcoreapp2.1\Institutes.dll
+D:\Tradinos\Tradions task\frontEnd\bin\Debug\netcoreapp2.1\Institutes.pdb
+D:\Tradinos\Tradions task\frontEnd\obj\Debug\netcoreapp2.1\Institutes.csprojAssemblyReference.cache
+D:\Tradinos\Tradions task\frontEnd\obj\Debug\netcoreapp2.1\Institutes.csproj.CoreCompileInputs.cache
+D:\Tradinos\Tradions task\frontEnd\obj\Debug\netcoreapp2.1\Institutes.RazorAssemblyInfo.cache
+D:\Tradinos\Tradions task\frontEnd\obj\Debug\netcoreapp2.1\Institutes.RazorAssemblyInfo.cs
+D:\Tradinos\Tradions task\frontEnd\obj\Debug\netcoreapp2.1\Institutes.AssemblyInfoInputs.cache
+D:\Tradinos\Tradions task\frontEnd\obj\Debug\netcoreapp2.1\Institutes.AssemblyInfo.cs
+D:\Tradinos\Tradions task\frontEnd\obj\Debug\netcoreapp2.1\Institutes.RazorTargetAssemblyInfo.cache
+D:\Tradinos\Tradions task\frontEnd\obj\Debug\netcoreapp2.1\Institutes.dll
+D:\Tradinos\Tradions task\frontEnd\obj\Debug\netcoreapp2.1\Institutes.pdb

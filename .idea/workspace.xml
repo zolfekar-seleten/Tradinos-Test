@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="903efd43-6609-4133-bfa7-45752f7a2dbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.idea/tradinos_task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.rnd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Console/Commands/CheckTasksDeadline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Controllers/JobController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Controllers/SubTaskController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Controllers/TaskController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Resources/CategoryResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Resources/CategoryResourceCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Resources/SubTaskResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Resources/SubTaskResourceCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Resources/TaskResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Http/Resources/TaskResourceCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Jobs/SendTaskDeadlineMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Mail/SendDeadlineExeddedAnnouncment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Models/SubTask.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Models/Task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/migrations/2021_03_17_202300_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/migrations/2021_03_17_202456_create_tasks_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/migrations/2021_03_17_202658_create_sub_tasks_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/migrations/2021_03_18_193505_create_category_task_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/migrations/2021_03_18_215511_create_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/seeders/CategoriesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tradinos_task/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="682660079">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tradions task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tradions task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tradions task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tradions task" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="903efd43-6609-4133-bfa7-45752f7a2dbb" name="Default Changelist" comment="" />
+      <created>1616270285142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616270285142</updated>
+      <workItem from="1616270293063" duration="204000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="204000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+</project>

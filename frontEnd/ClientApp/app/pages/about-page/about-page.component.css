@@ -1,0 +1,20 @@
+.example-card {
+    margin: 94px;
+    padding-left: 100px;
+    width: 56%;
+}
+mat-card-title {
+    color: #2D94C1;
+}
+
+.arabic {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.english {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
